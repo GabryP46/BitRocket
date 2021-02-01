@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container{
+  width: 1200px;
+  border: 1px solid gray;
+  padding: 40px;
+}
