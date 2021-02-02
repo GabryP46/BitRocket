@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Montserrat Medium";
+}
+
+body{
+  background-image: url('/second/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.container{
+  
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100vh;
+
+}
+
+header{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav{
+  line-height: 100px;
+}
+
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+
+.logo{
+  width: 60px;
+  padding-top: 20px;
+}
+
+.iconContainer{
+  line-height: 100px;
+}
+
+.icon{
+  height: 20px;
+  filter: invert(100%);
+  border-bottom: 1px solid black;
+  margin: 0 10px;
+}
+
+nav a{
+  padding: 0 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: goldenrod;
+}
+
+main{
+  padding: 300px 560px 0;
+  text-align: center;
+}
+
+h1{
+  font-size: 60px;
+  font-family: "Montserrat SemiBold";
+}
+
+h2{
+  margin: 20px;
+  font-size: 20px;
+  font-family: "Montserrat Thin";
+}
+
+button{
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+.btn1{
+  background-color: transparent;
+  border: 2px solid white;
+}
+.btn1:hover{
+  background-color: transparent;
+  border: 2px solid white;
+  background-color: white;
+  color: rgb(19, 19, 19);
+}
+
+.btn2{
+  background-color: transparent;
+  border: 2px solid white;
+  background-color: white;
+  color: rgb(19, 19, 19);
+}
+.btn2:hover{
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+footer{
+  padding-top: 250px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+footer button{
+  padding: 10px 14px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.6);
+  transform: rotate(90deg);
+}
