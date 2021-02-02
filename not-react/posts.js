@@ -6,3 +6,5 @@ fetch('https://jsonplaceholder.typicode.com/posts')
     str += '</ul>';
     document.getElementById("slideContainer").innerHTML = str;
 })
+
+
