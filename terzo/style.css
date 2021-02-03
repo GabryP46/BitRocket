@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Segoe UI Light';
+}
+
+body{
+  background-image: url('/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container{
+  background: rgb(56,178,205);
+  background: linear-gradient(0deg, rgba(56,178,205,0.6) 0%, rgba(70,185,161,0.6) 100%);
+  padding: 1% 10% 0;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.logo{
+  width: 30%;
+}
+header>a{
+  padding: 0;
+}
+
+nav a, button span, footer{
+  text-transform: uppercase;
+}
+
+header, footer, main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+a:hover{
+  font-weight: bold ;
+}
+
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 100px;
+  padding-bottom: 20px;
+}
+h2{
+  font-family: 'Segoe UI thin';
+  font-size: 20px;
+}
+
+
+.buttons{
+  display: flex;
+}
+
+div.callToAction button:first-child{
+  margin-right: 30px;
+}
+
+button{
+  background-color: blueviolet;
+  border: none;
+  border-radius: 3px;
+  font-size: 20px;
+  align-items: center;
+  padding: 10px;
+  margin: 50px 0;
+  cursor: pointer;
+} 
+
+button span{
+  font-size: 12px;
+  padding: 0 10px;
+}
+
+.btn{
+  display: flex;
+}
+
+i{
+  padding-left: 10px;
+}
+
+.callToAction{
+  margin-top: 100px;
+}
+
+footer{
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  padding: 0 10%;
+}
+
+footer button{
+  border-radius: 50%;
+  padding: 20px;
+  margin: 20px;
+  font-size: 15px;
+}
+
+footer i{
+  padding: 0;
+}
+footer span{
+  color: aqua;
+}
+
+main img{
+  position: absolute;
+  z-index: 2;
+  width: 350px;
+  right: 360px;
+  bottom: 60px;
+}
+
+.rectangle {
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+}
+.triangle-up {
+  position: absolute;
+	width: 0;
+  height: 0;
+  left: 0;
+  bottom: 200px;
+	border-left: 100vw solid transparent;
+	border-right: 0px solid transparent;
+	border-bottom: 95px solid white;
+}
+.none{display: none;}
+
+@media screen and (max-width: 375px){
+  nav{
+    display: none;
+  }
+  h1{
+    font-size: 45px;
+    text-align: center;
+  }
+  h2{
+    font-size: 20px;
+    text-align: center;
+  }
+  .buttons :first-child{
+    display: none;
+  }
+  .buttons button{
+    margin: 50px auto;
+    width: 140px;
+  }
+  main img{
+    width: 200px;
+    right: 100px;
+    bottom: -100px;
+  }
+  footer button{
+    margin: 5px;
+  }
+  .none{
+    display: inline-block;
+  }
+} 
