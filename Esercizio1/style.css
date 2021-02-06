@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+  background-color: grey;
+}
+
+h1{
+  font-size: 70px;
+}
+
+.container{
+  padding: 30px 20%
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+}
+
+section{
+  width: 30%;
+}
+
+hr{
+  background: grey;
+  margin-bottom: 20px;
+}
+
+p{
+  margin: 10px 0;
+}
+
+button{
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: grey;
+}
+
+header button{
+  background-color: cadetblue;
+}
+
+footer.container{
+  padding-top: 0;
+}
