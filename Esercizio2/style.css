@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+body{
+  background-image: url('http://www.sfondifree.it/sfondihd/wp-content/uploads/2013/06/Sfondi-full-HD-lago-di-montagna.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: brightness(0.5);
+}
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 15px;
+  position: absolute;
+  width: 100%;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: calc(100% - 30px);
+}
+
+a{
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+a, h1, main button{
+  text-transform: uppercase;
+}
+
+nav a:first-child{
+  color: gold;
+}
+
+i{
+  padding: 0 5px;
+}
+
+main{
+  display: flex;
+  width: 40%;
+  height: 100vh;
+  margin: 0 auto;
+  align-items: center;
+}
+
+h1{
+  font-size: 70px;
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  padding: 20px;
+}
+
+.calltoaction, footer{
+  display: flex;
+  justify-content: center;
+}
+
+main button{
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: 2px solid white;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+main button:last-child{
+  color: black;
+  background-color: white;
+}
+
+footer button{
+  position: absolute;
+  bottom: 5%;
+  padding: 10px 15px;
+  border-radius: 50%;
+  transform: rotate(90deg);
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  display: flex;
+  justify-content: center; 
+  cursor: pointer;
+}
