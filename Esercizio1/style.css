@@ -1,0 +1,94 @@
+*{
+  color: white;
+  margin: 0;
+}
+
+body{
+  background-image: url('https://www.sapere.it/.imaging/default/dam/icone-sapere/domande-risposte/geografia/abisso-oceano/jcr:content.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+main{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 15px;
+  text-align: center;
+  padding: 0 40px 40px;
+}
+
+h1{
+  font-size: 70px;
+  padding: 30px 0;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+form input{
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+input:last-child{
+  background-color: royalblue;
+  cursor: pointer;
+}
+
+input:last-child:hover{
+  background-color: rgb(96, 123, 202);
+  cursor: pointer;
+}
+
+span{
+  padding-top: 20px;
+}
+
+
+/* Start media tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+  main{
+    width: 80%;
+  }
+}
+
+/* End media tablet */
+
+
+
+/* Start media smartphone */
+
+@media screen and (max-width: 767px){
+  
+  main{
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  h1{
+    font-size: 50px;
+  }
+
+  span{
+    display: none;
+  }
+  
+  h1, p, form input{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+}
+
+/* End media smartphone */
