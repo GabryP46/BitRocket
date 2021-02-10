@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+main div.row{
+  background-color:lightsteelblue;
+  height: 400px;
+}
+
+.display{
+  border: 1px solid black;
+}

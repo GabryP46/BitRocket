@@ -1,0 +1,156 @@
+.row{
+  width: 100%;
+}
+
+.sm-1{
+  width: 100%;
+  float: left;
+}
+.sm-2{
+  width: calc(100% / 2);
+  float: left;
+}
+.sm-3{
+  width: calc(100% / 3);
+  float: left;
+}
+.sm-4{
+  width: calc(100% / 4);
+  float: left;
+}
+.sm-5{
+  width: calc(100% / 5);
+  float: left;
+}
+.sm-6{
+  width: calc(100% / 6);
+  float: left;
+}
+.sm-7{
+  width: calc(100% / 7);
+  float: left;
+}
+.sm-8{
+  width: calc(100% / 8);
+  float: left;
+}
+.sm-9{
+  width: calc(100% / 9);
+  float: left;
+}
+.sm-10{
+  width: calc(100% / 10);
+  float: left;
+}
+.sm-11{
+  width: calc(100% / 11);
+  float: left;
+}
+.sm-12{
+  width: calc(100% / 12);
+  float: left;
+}
+
+
+@media (min-width:481px)  {
+  .md-1{
+    width: 100%;
+    float: left;
+  }
+  .md-2{
+    width: calc(100% / 2);
+    float: left;
+  }
+  .md-3{
+    width: calc(100% / 3);
+    float: left;
+  }
+  .md-4{
+    width: calc(100% / 4);
+    float: left;
+  }
+  .md-5{
+    width: calc(100% / 5);
+    float: left;
+  }
+  .md-6{
+    width: calc(100% / 6);
+    float: left;
+  }
+  .md-7{
+    width: calc(100% / 7);
+    float: left;
+  }
+  .md-8{
+    width: calc(100% / 8);
+    float: left;
+  }
+  .md-9{
+    width: calc(100% / 9);
+    float: left;
+  }
+  .md-10{
+    width: calc(100% / 10);
+    float: left;
+  }
+  .md-11{
+    width: calc(100% / 11);
+    float: left;
+  }
+  .md-12{
+    width: calc(100% / 12);
+    float: left;
+  }
+ }
+
+
+@media (min-width:1281px) { 
+  .lg-1{
+    width: 100%;
+    float: left;
+  }
+  .lg-2{
+    width: calc(100% / 2);
+    float: left;
+  }
+  .lg-3{
+    width: calc(100% / 3);
+    float: left;
+  }
+  .lg-4{
+    width: calc(100% / 4);
+    float: left;
+  }
+  .lg-5{
+    width: calc(100% / 5);
+    float: left;
+  }
+  .lg-6{
+    width: calc(100% / 6);
+    float: left;
+  }
+  .lg-7{
+    width: calc(100% / 7);
+    float: left;
+  }
+  .lg-8{
+    width: calc(100% / 8);
+    float: left;
+  }
+  .lg-9{
+    width: calc(100% / 9);
+    float: left;
+  }
+  .lg-10{
+    width: calc(100% / 10);
+    float: left;
+  }
+  .lg-11{
+    width: calc(100% / 11);
+    float: left;
+  }
+  .lg-12{
+    width: calc(100% / 12);
+    float: left;
+  } 
+}
